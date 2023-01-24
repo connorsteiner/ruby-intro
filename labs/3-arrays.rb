@@ -21,11 +21,8 @@ my_list = ["milk", "eggs", "bacon"]
 whole_list = friends_list + my_list
 
 whole_list = whole_list.uniq
-whole_list.sort
+whole_list = whole_list.sort
 
-puts "Buy #{whole_list[0]}"
-puts "Buy #{whole_list[1]}"
-puts "Buy #{whole_list[2]}"
-puts "Buy #{whole_list[3]}"
-puts "Buy #{whole_list[4]}"
-puts "Buy #{whole_list[5]}"
+for item in whole_list
+    puts "Buy: #{item}."
+end
