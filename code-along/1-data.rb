@@ -30,4 +30,5 @@ puts "#{first_name}.#{last_name}@kellogg.northwestern.edu"
 
 # String manipulation
 first_name = first_name + ".i"
-puts "#{first_name}.#{last_name}@kellogg.northwestern.edu"
+email_syntax = "#{first_name}.#{last_name}@kellogg.northwestern.edu"
+puts email_syntax
