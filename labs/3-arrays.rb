@@ -21,4 +21,7 @@ my_list = ["milk", "eggs", "bacon"]
 whole_list = friends_list + my_list
 
 whole_list = whole_list.uniq
-puts whole_list.sort
+whole_list.sort
+whole_list.insert(0, "buy ")
+
+puts whole_list
